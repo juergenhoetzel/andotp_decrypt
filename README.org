@@ -1,0 +1,16 @@
+#+TITLE: andotp decryptor written in C
+
+* Build requirements:
+
+- [[https://mesonbuild.com/][The Meson Build system]]
+
+
+* Runtime/Build requirements:
+
+- [[https://www.gnutls.org/][GnuTLS]]
+
+* Usage:
+
+#+begin_src bash
+andotp_decrypt ANDOTP_BACKUP_FILE [PASSWORD]
+#+end_src
